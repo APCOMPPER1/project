@@ -1,2 +1,4 @@
 # project
-//lets do this 
+//lets do this
+
+What are we doing?
