@@ -15,7 +15,7 @@ public class Barrier
      */
     public Barrier()
     {
-        // initialise instance variables
+
         x = 0;
     }
 
@@ -25,9 +25,11 @@ public class Barrier
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    public int sampleMethod(int y)
+    public void setup()
     {
-        // put your code here
-        return x + y;
+         Graphics g = bs.getDrawGraphics();
+        {     
+            
+            }
     }
 }

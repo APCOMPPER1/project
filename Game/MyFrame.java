@@ -1,4 +1,8 @@
-import javax.swing.*;
+import javax.swing.JFrame;
+import java.awt.*;
+import java.awt.image.BufferStrategy;
+import java.awt.Graphics;
+import java.awt.geom.*;
 	
 	class MyFrame extends JFrame {
 	  public MyFrame() {
@@ -11,4 +15,11 @@ import javax.swing.*;
 	    JFrame f = new MyFrame();
 	    f.show();
 	  }
+	  
+        public void paint(Graphics g) {
+        Graphics2D g2 = (Graphics2D) g;
+        Line2D lin = new Line2D.Float(100, 100, 250, 260);
+        
+        g2.draw(lin);
+     }
 	}
