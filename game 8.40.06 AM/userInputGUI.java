@@ -3,7 +3,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.awt.Graphics;
 
-public class VoteCounterGUI {
+public class userInputGUI {
     private int WIDTH = 300;
     private int HEIGHT = 300;
     private int votesForJoe;
@@ -20,7 +20,7 @@ public class VoteCounterGUI {
     //----------------------------------------------
     // Constructor: Sets up the GUI.
     //----------------------------------------------
-    public VoteCounterGUI() {
+    public userInputGUI() {
         votesForJoe = 0;
         votesForSue = 0;
         frame = new JFrame("Vote Counter");
