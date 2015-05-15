@@ -1,10 +1,3 @@
-
-/**
- * Write a description of interface Moveable here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public interface Moveable
 {
     void setPower(double p); //Sets the speed in the beginning
