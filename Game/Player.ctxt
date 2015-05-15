@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.params=image
-comment0.target=Player(java.awt.image.BufferedImage)
-comment1.params=
-comment1.target=java.awt.image.BufferedImage\ grabImage()
-numComments=2
