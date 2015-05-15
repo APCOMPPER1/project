@@ -15,41 +15,49 @@ package.showUses=true
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-target1.editor.x=678
-target1.editor.y=296
+target1.editor.x=466
+target1.editor.y=243
 target1.height=50
-target1.name=MyFrame
+target1.name=Borders
 target1.naviview.expanded=false
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
 target1.width=80
-target1.x=360
-target1.y=140
+target1.x=150
+target1.y=110
 target2.editor.height=700
 target2.editor.width=900
-target2.editor.x=355
-target2.editor.y=112
+target2.editor.x=678
+target2.editor.y=296
 target2.height=50
-target2.name=MAIN
+target2.name=MyFrame
 target2.naviview.expanded=false
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
 target2.width=80
-target2.x=160
-target2.y=10
+target2.x=10
+target2.y=330
 target3.editor.height=700
 target3.editor.width=900
+<<<<<<< HEAD
 target3.editor.x=126
 target3.editor.y=167
 target3.height=50
 target3.name=Player
+=======
+target3.editor.x=355
+target3.editor.y=112
+target3.height=50
+target3.name=MAIN
+>>>>>>> 1c86d647449466811d0f97f6014be555bafbbb75
 target3.naviview.expanded=false
 target3.showInterface=false
 target3.type=ClassTarget
 target3.typeParameters=
 target3.width=80
+<<<<<<< HEAD
 target3.x=250
 target3.y=10
 target4.editor.height=700
@@ -59,10 +67,17 @@ target4.editor.y=112
 target4.height=50
 target4.name=Game
 target4.naviview.expanded=false
+=======
+target3.x=160
+target3.y=10
+target4.height=50
+target4.name=Player
+>>>>>>> 1c86d647449466811d0f97f6014be555bafbbb75
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
 target4.width=80
+<<<<<<< HEAD
 target4.x=70
 target4.y=10
 target5.editor.height=700
@@ -71,10 +86,21 @@ target5.editor.x=126
 target5.editor.y=167
 target5.height=50
 target5.name=ImageLoader
+=======
+target4.x=310
+target4.y=20
+target5.editor.height=700
+target5.editor.width=899
+target5.editor.x=357
+target5.editor.y=112
+target5.height=50
+target5.name=Game
+>>>>>>> 1c86d647449466811d0f97f6014be555bafbbb75
 target5.naviview.expanded=false
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
+<<<<<<< HEAD
 target5.width=100
 target5.x=340
 target5.y=10
@@ -84,10 +110,27 @@ target6.editor.x=678
 target6.editor.y=296
 target6.height=50
 target6.name=Barrier
+=======
+target5.width=80
+target5.x=70
+target5.y=10
+target6.editor.height=700
+target6.editor.width=900
+target6.editor.x=466
+target6.editor.y=243
+target6.height=50
+target6.name=ImageLoader
+>>>>>>> 1c86d647449466811d0f97f6014be555bafbbb75
 target6.naviview.expanded=false
 target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
+<<<<<<< HEAD
 target6.width=80
 target6.x=120
 target6.y=100
+=======
+target6.width=100
+target6.x=250
+target6.y=110
+>>>>>>> 1c86d647449466811d0f97f6014be555bafbbb75
