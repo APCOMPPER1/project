@@ -27,8 +27,13 @@ target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
 target1.width=80
+<<<<<<< HEAD
+target1.x=10
+target1.y=330
+=======
 target1.x=250
 target1.y=210
+>>>>>>> 9016fb73b6733e3b0cac4921cc20c725360c3eed
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=678
@@ -56,12 +61,29 @@ target3.editor.x=466
 target3.editor.y=243
 >>>>>>> 54d781eb7de31d6a24fd278ad1ded31d45afdb26
 target3.height=50
+<<<<<<< HEAD
+target3.name=Player
+target3.naviview.expanded=true
+=======
 target3.name=MAIN
 target3.naviview.expanded=false
+>>>>>>> 9016fb73b6733e3b0cac4921cc20c725360c3eed
 target3.showInterface=false
 target3.type=ClassTarget
 target3.typeParameters=
 target3.width=80
+<<<<<<< HEAD
+target3.x=310
+target3.y=20
+target4.height=50
+target4.name=Border
+target4.showInterface=false
+target4.type=ClassTarget
+target4.typeParameters=
+target4.width=80
+target4.x=70
+target4.y=70
+=======
 target3.x=160
 target3.y=10
 target4.height=50
@@ -72,6 +94,7 @@ target4.typeParameters=
 target4.width=100
 target4.x=370
 target4.y=0
+>>>>>>> 9016fb73b6733e3b0cac4921cc20c725360c3eed
 target5.editor.height=700
 target5.editor.width=900
 target5.editor.x=466
