@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.params=g
-comment0.target=void\ paint(java.awt.Graphics)
-comment0.text=\n\ Paint\ method\ for\ applet.\n\ \n\ @param\ \ g\ \ \ the\ Graphics\ object\ for\ this\ applet\n
-numComments=1

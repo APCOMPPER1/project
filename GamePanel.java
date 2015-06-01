@@ -5,31 +5,35 @@ import java.awt.*;
 import java.io.*;
 
 public class GamePanel extends JPanel {
-    // ball image
+    // images
     private BufferedImage ball;
+    private BufferedImage goal;
     
     // ball coords
-    private double x, y;
+    public double x =50;
+    public double y =50;
+    private final int xGoal = 774;
+    private final int yGoal = 120;
     private double vel, xvel, yvel;
     
-    
-    //Game g = new Game();
+    public double power = 0;
+    public double angle = 0;
     
     public GamePanel() {
         setSize(854, 480);
         
         // init vars
-        x = 50;
-        y = 50;
+        
         
         // load assets
         try {
+            goal = ImageIO.read(new File("goal.png"));
             ball = ImageIO.read(new File("ball.png"));
+            
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    
     public void start() {
         try {
             while(true) {
@@ -41,19 +45,50 @@ public class GamePanel extends JPanel {
             e.printStackTrace();
         }
     }
-    
     public void update() {
-        /*vel = g.getPower();
-        xvel = vel * Math.cos(g.getAngle());
-        yvel = vel * Math.sin(g.getAngle());
-        x += xvel;
-        y += yvel;*/
+        if (this.power > 1) this.power -= 1;
+        else this.power = 0;
+        
+        if (this.x > 854) {
+            this.angle = 180-this.angle;
+            this.x = 853;
+        }
+        if (this.x < 0) {
+            this.angle = 180-this.angle;
+            this.x = 1;
+        }
+        if(this.y > 480){
+            this.angle = -180 + this.angle;
+            this.y = 479;
+        }
+        if(this.y < 0){
+            this.angle = -180 + this.angle;
+            this.y=1;
+        }
+        double angle = Math.toRadians(this.angle);
+        
+        
+        
+        int dx = (int) (Math.cos(angle) * this.power);
+        int dy = (int) (Math.sin(angle) * this.power);
+        
+        this.x += dx;
+        this.y += dy;
     }
+    /*public double getX(){
+        return x;
+    }
+    public double getY(){
+        return y;
+    }*/
     
     @Override
     public void paintComponent(Graphics g) {
+        update();
         g.setColor(Color.green);
         g.fillRect(0, 0, 854, 480);
+        g.drawImage((Image) goal, xGoal, yGoal, null);
         g.drawImage((Image) ball, (int)x, (int)y, null);
+        
     }
 }
